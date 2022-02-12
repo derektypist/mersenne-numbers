@@ -23,7 +23,7 @@ function getNumberInfo() {
 
 // Function to Check if the Number is a Mersenne
 function isMersenne(num) {
-    return num.toString(2).includes("0") ? false : true;
+    return (num.toString(2).includes("0")) ? false : true;
 }
 
 // Function to Clear Information
