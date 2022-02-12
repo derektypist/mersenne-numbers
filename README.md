@@ -26,3 +26,30 @@ Assuming that my input is valid, I expect to see something like:
 
 The number entered is an integer between 1 and 100000.  The function `isMersenne(num)` is a boolean.  It returns `true` or `false`.
 
+## Features
+
+Allows the user to enter a number as well as seeing if that number is a Mersenne.  Perform checks on the input to ensure it is valid.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.1.3 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/mersenne-numbers) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Geeks for Geeks](https://www.geeksforgeeks.org)
+- [Wikipedia](https://www.wikipedia.org)
+
