@@ -22,9 +22,12 @@ function getNumberInfo() {
 }
 
 // Function to Check if the Number is a Mersenne
-function isMersenne(n) {
-   let bin = n.toString(2);
-   return bin.indexOf("0") !== -1 ? false : true;
+function isMersenne(num) {
+   while (num != 0) {
+       if (num%2 == 0) return false;
+       num = Math.floor(n/2);
+   }
+   return true;
 }
 
 // Function to Clear Information
