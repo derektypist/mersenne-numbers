@@ -25,7 +25,7 @@ function getNumberInfo() {
 function isMersenne(num) {
    while (num != 0) {
        if (num%2 == 0) return false;
-       num = Math.floor(n/2);
+       num = Math.floor(num/2);
    }
    return true;
 }
