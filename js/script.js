@@ -20,3 +20,14 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+// Function to Check if the Number is a Mersenne
+function isMersenne(num) {
+    return num.toString(2).includes("0") ? false : true;
+}
+
+// Function to Clear Information
+function clearInfo() {
+    let txt="";
+    document.getElementById("numinfo").innerHTML = txt;
+}
