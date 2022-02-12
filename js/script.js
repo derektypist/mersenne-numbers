@@ -22,8 +22,8 @@ function getNumberInfo() {
 }
 
 // Function to Check if the Number is a Mersenne
-function isMersenne(num) {
-   return num.toString(2).includes("0") ? true : false;
+function isMersenne(n) {
+   return n.toString(2).indexOf("0") !== -1 ? false : true;
 }
 
 // Function to Clear Information
